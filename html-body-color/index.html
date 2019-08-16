@@ -4,13 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+* {
+	margin: 0;
+	padding: 0
+}
+::-moz-selection {
+	background-color: #ff0000;
+	color: #222
+}
+::selection {
+	background-color: #00ff00;
+	color: #222
+}
 html {
-	background-color: #f0f;
+	background-color: #ff00ff;
+	/*background: linear-gradient(to right, red, red 14.3%, orange 14.3%, orange 28.6%, yellow 28.6%, yellow 42.9%, green 42.9%, green 57.2%, blue 57.2%, blue 71.5%, indigo 71.5%, indigo 85.8%, violet 85.8%, violet);*/
 }
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #fff;
+	background-color: #222;
+	color: #b1b1b1;
+	background: radial-gradient(ellipse at center, #111 10%, #ffff00 100%);
 	background-attachment: fixed;
 	min-height: 100vh
 }
