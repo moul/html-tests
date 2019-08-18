@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-   <g id=”my-group”>
-   <rect x="0" y="0" width="800" height="600" fill="black" stroke="white" /> 
-   <foreignObject x="0" y="0" width="800" height="600"> 
-     <div xmlns="http://www.w3.org/1999/xhtml" style="width:800px; height:600px; overflow-y:auto; color: white;">
-       <pre>
+  <g>
+    <rect x="0" y="0" width="800" height="600" fill="black" stroke="white"></rect> 
+    <foreignObject x="0" y="0" width="800" height="600"> 
+      <div xmlns="http://www.w3.org/1999/xhtml" style="width:800px; height:600px; overflow-y:auto; color: white;">
+        <pre>
 +--------------------------------------------------------------+
 | * * * ░░░░░░░░░░░░░░░░░░░░  Hello  ░░░░░░░░░░░░░░░░░░░░░░░░░░|
 +--------------------------------------------------------------+
@@ -29,8 +29,8 @@
 |/  |       |  \    \ /                    /  ' \/ _ \/ // / / |
 ||  |       |  |    | |                   /_/_/_/\___/\_,_/_/  |
 +--------------------------------------------------------------+
-       </pre>
-     </div> 
-   </foreignObject> 
-   </g> 
+        </pre>
+      </div> 
+    </foreignObject> 
+  </g> 
 </svg>
